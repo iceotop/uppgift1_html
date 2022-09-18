@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column; /* the white surface*/
+}
+
+
+.main-header {
+    background-color: blueviolet;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.contents-layout {
+    display: flex;
+    background-color: rgb(255, 166, 0);
+    justify-content: center; /* controls its child, main-article*/
+}
+
+.main-article {
+    background-color: rgba(255, 161, 247, 0.993);
+    border: 4px solid black;
+}
+
+#item-1 {
+ background-color: red;
+}
+
+#item-2 {
+    background-color: blue;
+}
+
+#item-3 {
+    background-color: yellow;
+}
+
+#item-4 {
+    background-color: green;
+}
