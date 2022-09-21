@@ -1,6 +1,5 @@
 body {
-    display: flex;
-    flex-direction: column; /* the white surface*/
+     /* the white surface*/
 }
 
 
@@ -10,29 +9,32 @@ body {
     border-bottom: 3px solid black;
 }
 
-.contents-layout {
+.main-article {
     display: flex;
     background-color: rgb(255, 166, 0);
-    justify-content: center; /* controls its child, main-article*/
-}
-
-.main-article {
-    background-color: rgba(255, 161, 247, 0.993);
+     /* controls its child, main-article*/
     border: 4px solid black;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 50px;
 }
 
-#item-1 {
- background-color: red;
+.main-article .items {
+    margin: 30px;
 }
 
-#item-2 {
+.item-1 {
+    background-color: red;
+}
+
+.item-2 {
     background-color: blue;
 }
 
-#item-3 {
+.item-3 {
     background-color: yellow;
 }
 
-#item-4 {
+.item-4 {
     background-color: green;
 }
